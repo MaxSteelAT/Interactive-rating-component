@@ -1,0 +1,74 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+}
+
+.message {
+  font-size: 15px;
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  background-color: hsl(215.29deg 17.89% 18.63%);
+  border-radius: 20px;
+  width: 190px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.title-rating {
+  font-size: 30px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+.text-rating {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  font-weight: 500;
+  padding: 0 5px 0 0;
+  margin-top: 15px;
+}
+
+img {
+  width: 175px;
+}
+
+#container {
+  width: 450px;
+  height: 450px;
+  border: solid;
+  border-color: black;
+  background:
+    radial-gradient(at center top, #28303dc9, hsl(215.29deg 23.29% 14.31% / 36%));
+  border-radius: 30px;
+  display: inline-block;
+  color: aliceblue;
+  padding: 25px 50px 20px 45px;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#icon-container-rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#message-container {
+  display: flex;
+  justify-content: center;
+}
+
+#text-rating-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}

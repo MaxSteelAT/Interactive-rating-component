@@ -1,0 +1,30 @@
+@media (max-width: 480px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-form {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+
+  .message{
+    margin-bottom: 12px;
+  }
+
+  img{
+    width: 165px;
+  }
+
+  #container {
+    width: 350px;
+    height: 390px;
+    padding: 20px 20px 20px 20px;
+  }
+
+}
