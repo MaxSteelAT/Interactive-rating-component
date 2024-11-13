@@ -2,6 +2,9 @@
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
+## Production! 🌐
+Live site https://maxsteelat.github.io/Interactive-rating-component/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
